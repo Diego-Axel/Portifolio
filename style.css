@@ -198,3 +198,19 @@ section.sobre .flex{
     margin: 0 5px;
     transition: .2s;
 }
+
+/* ESTILO DO PORTIFÓLIO */
+section.portifolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff13;
+}
+
+section.portifolio .flex{
+    justify-content: space-around;
+}
+
+.img-portifolio{
+    width: 360px; 
+    height: 460px;
+    background-color: #00ff08;       
+}
