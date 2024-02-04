@@ -214,5 +214,10 @@ section.portifolio .flex{
     height: 460px;
     background-color: #00ff08;  
     background-size: cover; 
-    
+    background-position: 100% 0%;
+}
+
+/* EFEITO HOVER(FUTURAMENTE) */
+.img-portifolio:hover{
+    background-position: 100% 100%;
 }
