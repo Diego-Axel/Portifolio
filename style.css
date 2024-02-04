@@ -215,6 +215,9 @@ section.portifolio .flex{
     background-color: #00ff08;  
     background-size: cover; 
     background-position: 100% 0%;
+    transition: 8s;
+    cursor: pointer;
+    border-radius: 40px;
 }
 
 /* EFEITO HOVER(FUTURAMENTE) */
