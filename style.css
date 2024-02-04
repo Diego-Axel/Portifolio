@@ -207,6 +207,7 @@ section.portifolio{
 
 section.portifolio .flex{
     justify-content: space-around;
+    margin-top: 60px;
 }
 
 .img-portifolio{
@@ -240,4 +241,10 @@ section.portifolio .flex{
     font-size: 24px;
     font-weight: 600;
     color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay:hover{
+    opacity: 1;    
 }
