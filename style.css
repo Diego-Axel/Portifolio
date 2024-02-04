@@ -212,5 +212,7 @@ section.portifolio .flex{
 .img-portifolio{
     width: 360px; 
     height: 460px;
-    background-color: #00ff08;       
+    background-color: #00ff08;  
+    background-size: cover; 
+    
 }
