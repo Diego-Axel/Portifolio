@@ -43,7 +43,7 @@ h2.titulo span{
     color: #00ff08;
 }
 
-button:hover {
+button:hover, form .diego-enviar input:hover {
     box-shadow: 0px 0px 8px #00ff2a;
     transform: scale(1.05);
 }
@@ -276,7 +276,7 @@ form input, form textarea{
 
 /* COR DAS LETRAS DE INDICAÇÃO DO FORMS */
 form input::placeholder{
-
+    
 }
 
 form textarea{
@@ -295,4 +295,5 @@ form .diego-enviar input{
     color: #000;
     font-weight: 700;
     cursor: pointer;
+    transition: .2s;
 }
