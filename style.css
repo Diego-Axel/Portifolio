@@ -274,11 +274,6 @@ form input, form textarea{
     font-size: 18px;
 }
 
-/* COR DAS LETRAS DE INDICAÇÃO DO FORMS */
-form input::placeholder{
-    
-}
-
 form textarea{
     resize: none;
     max-height: 200px;
