@@ -261,9 +261,10 @@ form{
     justify-content: center;
     flex-direction: column;
     gap: 10px;
+    margin-top: 40px;
 }
 
-form input{
+form input, form textarea{
     width: 100%;
     background-color: #3b3b3be7;
     border: 0;
@@ -273,6 +274,25 @@ form input{
     font-size: 18px;
 }
 
+/* COR DAS LETRAS DE INDICAÇÃO DO FORMS */
 form input::placeholder{
-    
+
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+
+form .diego-enviar{
+    margin-top: 20px;  
+    text-align: center;
+}
+
+form .diego-enviar input{
+    width: 120px;
+    background-color: #00ff08;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
 }
