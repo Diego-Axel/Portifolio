@@ -332,8 +332,80 @@ footer .line-footer p a{
         flex-direction: column-reverse;
     }
 
+    h2.titulo{
+        font-size: 34px;
+        line-height: 30px;
+    }
+
     /* CABEÇALHO */
     .menu-desktop, .diego-contato{
         display: none;
     }
+
+    /* TOPO DO SITE */
+    section.topo-do-site .flex{
+        gap: 40px;
+    }
+
+    section.topo-do-site{
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1{
+        font-size: 30px;    
+    }
+
+    .topo-do-site .img-topo-site img{
+        width: 100%;
+    }
+
+    /* ESTILO DAS ESPECIALIDADES */
+    section.especialidades{
+        padding: 40px 8%;
+    }
+
+    /* SOBRE */
+    section.sobre{
+        padding: 80px 8%;
+    }
+
+    .sobre .txt-sobre h2{
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .diego-social{
+        text-align: center;
+    }
+
+    .img-sobre img{
+       width: 100%; 
+    }
+
+    /* PORTIFÓLIO */
+    section.portifolio{
+        padding: 80px 8%;
+    }
+
+    .img-portifolio{
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    section.portifolio .flex{
+        gap: 60px;
+    }
+
+    /* RODAPÉ */
+    footer .flex{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    footer .line-footer{
+        text-align: center;
+    }
+    
 }
