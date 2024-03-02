@@ -321,3 +321,19 @@ footer .line-footer p i{
 footer .line-footer p a{
     color: #fff;
 }
+
+@media screen and (max-width: 1020px){
+    /* GERAL CLASSES */
+    .flex{
+        flex-direction: column;
+    }
+
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+
+    /* CABEÇALHO */
+    .menu-desktop, .diego-contato{
+        display: none;
+    }
+}
