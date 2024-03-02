@@ -66,7 +66,7 @@ header a {
     transition: .2s;
 }
 
-header a:hover {
+header nav.menu-desktop a:hover {
     color: #fff;
     transform: scale(1.05);
 }
@@ -75,11 +75,64 @@ header nav ul {
     list-style-type: none;
 }
 
-header nav ul li {
+header nav.menu-desktop ul li {
     display: inline-block;
     padding: 0 40px;
 }
 
+/* ESTILO DO MENU MOBILE */
+.diego-abrir-menu i{
+    color: #00ff08;
+    font-size: 40px;
+}
+
+.menu-mobile{
+    background-color: #000;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 0%;
+    overflow: hidden;
+}
+
+.menu-mobile .diego-fechar{
+    padding: 20px 5%;
+}
+
+.menu-mobile .diego-fechar i{
+    color: #00ff08;
+    font-size: 30px;
+}
+
+.menu-mobile nav ul{
+    text-align: right;
+}
+
+.menu-mobile nav ul li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 8%;
+    display: block;
+}
+
+.menu-mobile nav ul li a:hover{
+    background-color: #00ff08;
+    color: #000;
+}
+
+.overlay-menu-moba{
+    background-color: #00000093;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888;
+    display: none;
+}
 
 /* ESTILO DO TOPO DO SITE */
 section.topo-do-site{
